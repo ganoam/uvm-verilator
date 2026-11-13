@@ -99,7 +99,7 @@ filesets:
       - src/dap/uvm_simple_lock_dap.svh : {is_include_file: true}
       - src/deprecated/macros/uvm_sequence_defines.svh : {is_include_file: true}
       - src/dpi/uvm_common.c : {is_include_file: true}
-      - src/dpi/uvm_dpi.cc : {is_include_file: true}
+      - src/dpi/uvm_dpi.cc : {file_type: cppSource}
       - src/dpi/uvm_dpi.svh : {is_include_file: true}
       - src/dpi/uvm_hdl.c : {is_include_file: true}
       - src/dpi/uvm_hdl.svh : {is_include_file: true}
